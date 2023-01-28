@@ -32,7 +32,7 @@ public class EngineMock {
                 .setJdbcDriver("com.mysql.cj.jdbc.Driver")
                 .setJdbcUsername("root")
                 .setJdbcPassword("root")
-                .setJdbcUrl("jdbc:mysql://192.168.124.157:3306/flowable?serverTimezone=Asia/Shanghai&useUnicode=true&characterEncoding=utf-8&zeroDateTimeBehavior=convertToNull&useSSL=false&rewriteBatchedStatements=true")
+                .setJdbcUrl("jdbc:mysql://127.0.0.1:3306/flowable?serverTimezone=Asia/Shanghai&useUnicode=true&characterEncoding=utf-8&zeroDateTimeBehavior=convertToNull&useSSL=false&rewriteBatchedStatements=true")
                 .setDatabaseSchemaUpdate(ProcessEngineConfiguration.DB_SCHEMA_UPDATE_TRUE)
                 .buildProcessEngine();
     }
